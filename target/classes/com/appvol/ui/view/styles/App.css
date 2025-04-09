@@ -1,0 +1,38 @@
+.label {
+    -fx-text-fill: #357AA8;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-alignment: center;
+
+}
+
+.button {
+
+    -fx-background-color: #357AA8;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Segoi UI";
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-pref-width: 100px;
+
+}
+
+.button:hover {
+    -fx-background-color: #2A6085;
+}
+
+.button:pressed {
+    -fx-background-color: #1C4058;
+}
+
+.image-pane {
+    -fx-background-color: #FFFFFF;
+}
+
+.button-pane {
+    -fx-background-color: #000000;
+    -fx-pref-width: 400px;
+    -fx-padding: 200px 60px;
+}
